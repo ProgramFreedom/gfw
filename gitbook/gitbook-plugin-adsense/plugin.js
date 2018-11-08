@@ -20,7 +20,7 @@ require(['gitbook'], function (gitbook) {
 
     // Inject script to head.
     var adsByGoogleScript = document.createElement('script');
-    adsByGoogleScript.src = '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+    adsByGoogleScript.src = '';
     adsByGoogleScript.setAttribute('async', true);
     document.body.appendChild(adsByGoogleScript);
 
